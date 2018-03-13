@@ -1,65 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Doom'n'Quake</title>
+    <title>Doom`n`Quake</title>
     <meta charset="UTF-8">
-    <style>
-      html, body {
-        margin: 0;
-        height: 100%;
-      }
-      .wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-image: url(img/PIC1.PNG);
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height: 100%;
-      }
-      .game {
-        cursor: pointer;
-        margin: 20px;
-      }
-      .game__img {
-        transition: transform .5s;
-      }
-      .game:hover .game__img {
-        transform: scale(1.2);
-      }
-      .game__title {
-        text-align: center;
-        color: red;
-        font-weight: bold;
-        font-size: 20px;
-        font-family: monospace;
-      }
-    </style>
+    <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <div class="wrapper">
       <figure class="game" data-game="DOOM">
-        <img class="game__img" src="img/1.jpg" alt="The Ultimate Doom">
+        <img class="game__img" src="assets/img/1.jpg" alt="The Ultimate Doom">
         <figcaption class="game__title">The Ultimate Doom</figcaption>
       </figure>
       <figure class="game" data-game="DOOM2">
-        <img class="game__img" src="img/2.jpg" alt="Doom II: Hell on Earth">
+        <img class="game__img" src="assets/img/2.jpg" alt="Doom II: Hell on Earth">
         <figcaption class="game__title">Doom II: Hell on Earth</figcaption>
       </figure>
-      <audio src="TAUNT.ogg"></audio>
+      <audio src="assets/TAUNT.ogg"></audio>
     </div>
-    <script src="jquery.min.js"></script>
-    <script>
-      function run(game){
-        alert(game);
-      }
-      $(function(){
-        $('.game').on('click', function(){
-          var game = $(this).data('game');
-          run(game);
-        });
-      });
-    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
