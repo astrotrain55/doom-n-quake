@@ -18,20 +18,35 @@
         width: 100%;
         height: 100%;
       }
-      span {
+      .game {
         cursor: pointer;
-        margin: 10px;
+        margin: 20px;
+      }
+      .game__img {
+        transition: transform .5s;
+      }
+      .game:hover .game__img {
+        transform: scale(1.2);
+      }
+      .game__title {
+        text-align: center;
+        color: red;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: monospace;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
-      <span data-game="DOOM" title="The Ultimate Doom">
-        <img src="img/1.jpg" alt="The Ultimate Doom">
-      </span>
-      <span data-game="DOOM2" title="Doom II: Hell on Earth">
-        <img src="img/2.jpg" alt="Doom II: Hell on Earth">
-      </span>
+      <figure class="game" data-game="DOOM">
+        <img class="game__img" src="img/1.jpg" alt="The Ultimate Doom">
+        <figcaption class="game__title">The Ultimate Doom</figcaption>
+      </figure>
+      <figure class="game" data-game="DOOM2">
+        <img class="game__img" src="img/2.jpg" alt="Doom II: Hell on Earth">
+        <figcaption class="game__title">Doom II: Hell on Earth</figcaption>
+      </figure>
       <audio src="TAUNT.ogg"></audio>
     </div>
     <script src="jquery.min.js"></script>
@@ -40,7 +55,7 @@
         alert(game);
       }
       $(function(){
-        $('span').on('click', function(){
+        $('.game').on('click', function(){
           var game = $(this).data('game');
           run(game);
         });
