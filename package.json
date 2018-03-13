@@ -1,0 +1,12 @@
+{
+  "main": "index.html",
+  "name": "Doom`n`Quake",
+  "window": {
+    "title": "Doom`n`Quake",
+    "min_width": 800,
+    "min_height": 600,
+    "icon": "img/3_M_DOOM.png",
+    "position": "center",
+    "resizable": false
+  }
+}

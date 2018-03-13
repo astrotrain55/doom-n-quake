@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doom'n'Quake</title>
+    <meta charset="UTF-8">
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+      }
+      .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/PIC1.PNG);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
+      span {
+        cursor: pointer;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <span data-game="DOOM" title="The Ultimate Doom">
+        <img src="img/1.jpg" alt="The Ultimate Doom">
+      </span>
+      <span data-game="DOOM2" title="Doom II: Hell on Earth">
+        <img src="img/2.jpg" alt="Doom II: Hell on Earth">
+      </span>
+      <audio src="TAUNT.ogg"></audio>
+    </div>
+    <script src="jquery.min.js"></script>
+    <script>
+      function run(game){
+        alert(game);
+      }
+      $(function(){
+        $('span').on('click', function(){
+          var game = $(this).data('game');
+          run(game);
+        });
+      });
+    </script>
+  </body>
+</html>
