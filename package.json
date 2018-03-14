@@ -4,7 +4,7 @@
   "window": {
     "width": 800,
     "height": 600,
-    "icon": "assets/img/3_M_DOOM.png",
+    "icon": "assets/i/ico.png",
     "position": "center",
     "resizable": false
   }
