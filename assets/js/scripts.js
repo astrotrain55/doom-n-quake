@@ -3,8 +3,8 @@ function run(game){
 }
 
 $(function(){
-  $('.game').on('click', function(){
-    var game = $(this).data('game');
+  $('.game__item').on('click', function(){
+    var game = $(this).data('game__item');
     run(game);
   });
 });
