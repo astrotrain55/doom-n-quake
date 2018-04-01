@@ -4,7 +4,7 @@ function run(game){
 
 $(function(){
   $('.game__item').on('click', function(){
-    var game = $(this).data('game__item');
+    var game = $(this).data('game');
     run(game);
   });
 });

@@ -7,5 +7,8 @@
     "icon": "assets/i/ico.png",
     "position": "center",
     "resizable": false
+  },
+  "devDependencies": {
+    "nw-dev": "^3.0.1"
   }
 }
