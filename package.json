@@ -8,6 +8,9 @@
     "position": "center",
     "resizable": false
   },
+  "scripts": {
+    "run": "nw",
+  },
   "devDependencies": {
     "nw-dev": "^3.0.1"
   }
