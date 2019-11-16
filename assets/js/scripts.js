@@ -1,11 +1,16 @@
-var elements = document.getElementsByClassName('game__item');
-for (var i = 0; i < elements.length; i++) {
-  elements[i].addEventListener('click', function(e) {
-    var game = e.currentTarget.getAttribute('data-game');
-    run(game);
-  });
-}
+const games = document.querySelectorAll('.js-game');
+const names = {
+  DOOM: 'The Ultimate Doom',
+  DOOM2: 'Doom II: Hell on Earth',
+};
 
-function run(game){
-  alert(game);
+games.forEach((game) => {
+  game.addEventListener('click', (e) => {
+    const name = e.currentTarget.getAttribute('data-game');
+    run(name);
+  });
+});
+
+function run(game) {
+  alert(names[game]);
 }
