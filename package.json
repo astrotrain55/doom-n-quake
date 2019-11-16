@@ -1,6 +1,12 @@
 {
   "main": "index.html",
-  "name": "Doom`n`Quake",
+  "name": "Doom-n-Quake",
+  "description": "Лаунчер для gzdoom",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astrotrain55/doom-n-quake.git"
+  },
   "window": {
     "width": 800,
     "height": 600,
@@ -9,7 +15,10 @@
     "resizable": false
   },
   "scripts": {
-    "run": "nw",
+    "dev": "nw"
+  },
+  "dependencies": {
+    "nw": "^0.42.4"
   },
   "devDependencies": {
     "nw-dev": "^3.0.1"
