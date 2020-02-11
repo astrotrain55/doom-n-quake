@@ -2,7 +2,7 @@ import axios from 'axios';
 import Vue from 'vue';
 import store from '@/store/';
 
-import App from './App.vue';
+import App from './App';
 
 Vue.http = Vue.prototype.$http = axios;
 

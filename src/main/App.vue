@@ -10,11 +10,10 @@
   };
 </script>
 
-<style>
-  html,
-  body {
-    margin: 0;
-    height: 100%;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  }
+<style lang="stylus">
+  html
+  body
+    margin 0
+    height 100%
+    font-family Avenir, Helvetica, Arial, sans-serif
 </style>
