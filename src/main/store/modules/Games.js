@@ -1,4 +1,5 @@
 export default {
+  namespaced: true,
   state: {
     site: 'https://bethesda.net/ru/game/doom',
 
