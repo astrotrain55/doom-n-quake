@@ -1,8 +1,12 @@
 ### RealRTCW
 
-- [RealRTCW](https://github.com/wolfetplayer/RealRTCW/releases)
-- [Additional Languages Pack](https://www.moddb.com/mods/realrtcw-realism-mod/downloads)
+- **Return to Castle Wolfenstein** (2001)
 
-<hr>
+---
+
+- Port: [RealRTCW](https://github.com/wolfetplayer/RealRTCW/releases)
+- Rus: [Additional Languages Pack](https://www.moddb.com/mods/realrtcw-realism-mod/downloads)
+
+---
 
 [Назад](../../../README.md)

@@ -1,1 +1,1 @@
-cd ecwolf && ecwolf.exe --data SOD
+cd ecwolf && ecwolf.exe --data SOD --config ecwolf.cfg

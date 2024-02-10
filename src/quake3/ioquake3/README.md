@@ -1,7 +1,12 @@
 ### Quake 3 Arena
 
-[ioquake3](https://ioquake3.org/get-it/)
+- **Quake III Arena** (1999)
+- **Quake III: Team Arena** (2000)
 
-<hr>
+---
+
+Port: [ioquake3](https://ioquake3.org/get-it/)
+
+---
 
 [Назад](../../../README.md)
